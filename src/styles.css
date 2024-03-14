@@ -1,0 +1,24 @@
+*{
+box-sizing: border-box;
+
+}
+
+body{
+    margin: 0;
+}
+
+.nav{
+    background-color: lightgray;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 8px; */
+    padding: 0 1rem;
+    gap: 2rem;
+    align-items: center;
+
+}
+
+.site-title {
+    font-size: 2rem;
+}

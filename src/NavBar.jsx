@@ -1,7 +1,22 @@
-import React from 'react'
+import React from "react";
+import "./styles.css"
 
-export const NavBar = () => {
+const NavBar = () => {
   return (
-    <div>NavBar</div>
-  )
-}
+    <nav className="nav">
+      <a href="/" className="site-title">
+        Business Site
+      </a>
+      <ul>
+        <li>
+          <a href='/pricing'>Pricing</a>
+        </li>
+        <li>
+        <a href='/about'>About</a>
+        </li>
+      </ul>
+    </nav>
+  );
+};
+
+export default NavBar;
