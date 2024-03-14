@@ -1,3 +1,11 @@
+React Router Setup: 
+
+1. First, run npm install react-router-dom in the terminal. 
+2. Navigate to index.js and import:
+    - import {BrowserRouter} from 'react-router-dom'
+** Look into using Next.js for simpler react router setup. 
+3. Next, wrap the entire App component as a child of the <BrowserRouter><BrowserRouter/>component like so:
+
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
@@ -13,8 +21,3 @@ root.render(
     </React.StrictMode>
   </BrowserRouter>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
